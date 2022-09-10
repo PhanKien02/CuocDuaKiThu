@@ -65,8 +65,8 @@
             android:layout_marginStart="19dp"
             android:layout_marginTop="40dp"
             android:layout_toEndOf="@+id/checkboxone"
-            android:thumb="@drawable/animal1"
-            />
+            android:thumb="@drawable/animal1" />
+
         <SeekBar
             android:id="@+id/seeknartwo"
             android:layout_width="match_parent"
@@ -76,6 +76,7 @@
             android:layout_marginTop="100dp"
             android:layout_toEndOf="@+id/checkboxone"
             android:thumb="@drawable/animal2" />
+
         <SeekBar
             android:id="@+id/seeknarthree"
             android:layout_width="match_parent"
@@ -86,5 +87,15 @@
             android:layout_toEndOf="@+id/checkboxone"
             android:thumb="@drawable/animal3" />
 
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="139dp"
+            android:layout_height="116dp"
+            android:layout_below="@+id/logo"
+            android:layout_marginStart="202dp"
+            android:layout_marginTop="42dp"
+            android:layout_toEndOf="@+id/checkboxtwo"
+            android:backgroundTint="#03A9F4"
+            android:src="@android:drawable/ic_media_play" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
